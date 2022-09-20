@@ -1,0 +1,18 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel.";
+		System.out.println(mesaj);
+		System.out.println("-------------------------");
+		// length: Metinin karakter sayısını(uzunluğunu) verir.
+		System.out.println("Eleman Sayısı: " + mesaj.length());
+		// charAt: Dizinin parantez içerisinde belirttiğimiz karakterin karşılığını
+		// verir.
+		System.out.println("5.Eleman: " + mesaj.charAt(4));
+		// concat: Belirttiğimiz metin ile parantez içindeki metni birleştirir.
+		System.out.println(mesaj.concat("Yaşasın!"));
+	}
+
+}
